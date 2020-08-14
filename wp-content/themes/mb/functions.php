@@ -52,7 +52,7 @@ add_filter('walker_nav_menu_start_el', 'prefix_nav_description', 10, 4);
  */
 function my_script_init()
 {
-    wp_enqueue_style('my', get_template_directory_uri() . '/css/style.min.css', array(), '1.0.34', 'all');
+    wp_enqueue_style('my', get_template_directory_uri() . '/css/style.min.css', array(), '1.0.37', 'all');
 }
 add_action('wp_enqueue_scripts', 'my_script_init');
 
